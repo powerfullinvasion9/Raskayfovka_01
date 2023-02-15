@@ -1,0 +1,23 @@
+body {
+    background-color: light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+.container {
+    padding: 1em;
+    background-color: lightgrey;
+    width: 80%;
+
+}
